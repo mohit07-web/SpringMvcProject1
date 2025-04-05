@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <title>welcome jsp</title>
 </head>
-<body>
+<body bgcolor="blue">
 <h1> this is a welcome page of spring mvc
 </h1>
 </body>

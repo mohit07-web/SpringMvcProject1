@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/v1/")
+@RequestMapping("f1")
 public class WelcomeController {
 	@RequestMapping("/")
 	public String getResponce() {
@@ -14,6 +14,7 @@ public class WelcomeController {
 
 	@RequestMapping("/start")
 	public String getoutput() {
+		System.out.println("WelcomeController.getoutput()");
 		return "welcome";
 	}
 
